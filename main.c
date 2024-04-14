@@ -36,26 +36,26 @@ int main(){
     emptyGrid(grid);
 //initial values for s1 and s2
 
-//sample coords 1
-    // double s1positionX = 10;
-    // double s1positionY = 10;
-    // double s1velocityX = 0.075;
-    // double s1velocityY = 0.075;
-    // double s1anglePos = 0;
-    // double s1angleVelocity = 0.23;
+// sample coords 1
+    double s1positionX = 10;
+    double s1positionY = 10;
+    double s1velocityX = 0.075;
+    double s1velocityY = 0.075;
+    double s1anglePos = 0;
+    double s1angleVelocity = 0.23;
 
-    // double s2positionX = 40;
-    // double s2positionY = 35;
-    // double s2velocityX = -0.075;
-    // double s2velocityY = -0.075;
-    // double s2anglePos = 67.5;
-    // double s2angleVelocity = 0;
+    double s2positionX = 40;
+    double s2positionY = 35;
+    double s2velocityX = -0.075;
+    double s2velocityY = -0.075;
+    double s2anglePos = 67.5;
+    double s2angleVelocity = 0;
 
-    // float e = 0.2; //elasticity
-    // float m1 = 1; //mass of object 1
-    // float m2 = 1; //mass of object 2
-    // float moment1 = (m1*SIZE*SIZE)/3; //moment of inertia of object 1
-    // float moment2 = (m2*SIZE*SIZE)/3; //moment of inertia of object 2
+    float e = -0.1; //elasticity
+    float m1 = 1; //mass of object 1
+    float m2 = 1; //mass of object 2
+    float moment1 = (m1*SIZE*SIZE)/3; //moment of inertia of object 1
+    float moment2 = (m2*SIZE*SIZE)/3; //moment of inertia of object 2
 
 //sample coords 2
 
@@ -79,27 +79,27 @@ int main(){
     // float moment1 = (m1*SIZE*SIZE)/3; //moment of inertia of object 1
     // float moment2 = (m2*SIZE*SIZE)/3; //moment of inertia of object 2
 
-//sample coords 3 (failure)
+//sample coords 3
 
-    double s1positionX = 3;
-    double s1positionY = 5;
-    double s1velocityX = 0.1;
-    double s1velocityY = 0.075;
-    double s1anglePos = 24;
-    double s1angleVelocity = 0.01;
+    // double s1positionX = 3;
+    // double s1positionY = 5;
+    // double s1velocityX = 0.1;
+    // double s1velocityY = 0.075;
+    // double s1anglePos = 24;
+    // double s1angleVelocity = 0.01;
 
-    double s2positionX = 58;
-    double s2positionY = 25;
-    double s2velocityX = -0.12;
-    double s2velocityY = 0;
-    double s2anglePos = 36;
-    double s2angleVelocity = 0.02;
+    // double s2positionX = 58;
+    // double s2positionY = 25;
+    // double s2velocityX = -0.12;
+    // double s2velocityY = 0;
+    // double s2anglePos = 36;
+    // double s2angleVelocity = 0.02;
 
-    float e = -0.5; //elasticity
-    float m1 = 1; //mass of object 1
-    float m2 = 2; //mass of object 2
-    float moment1 = (m1*SIZE*SIZE)/3; //moment of inertia of object 1
-    float moment2 = (m2*SIZE*SIZE)/3; //moment of inertia of object 2
+    // float e = -0.5; //elasticity
+    // float m1 = 1; //mass of object 1
+    // float m2 = 2; //mass of object 2
+    // float moment1 = (m1*SIZE*SIZE)/3; //moment of inertia of object 1
+    // float moment2 = (m2*SIZE*SIZE)/3; //moment of inertia of object 2
 
 
 //declaration of function things
